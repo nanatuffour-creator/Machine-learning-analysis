@@ -2,7 +2,7 @@ import streamlit as st
 import sys
 sys.path.append('../src')
 
-from  cocoa_yield_ml_project/src/predict.py import predict_yield
+from cocoa_yield_ml_project/src/predict.py import predict_yield
 
 st.title("Cocoa Yield Prediction (Ghana)")
 
