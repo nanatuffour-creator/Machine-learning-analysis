@@ -1,0 +1,57 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+logs/
+*.out
+
+# Data files (large datasets should not be tracked)
+data/
+*.csv
+*.tsv
+*.json
+*.xml
+*.parquet
+*.h5
+*.hdf5
+
+# Model files
+models/
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.onnx
+*.joblib
+*.pkl
+
+# ML experiment tracking
+mlruns/        # MLflow
+wandb/         # Weights & Biases
+tensorboard/   # TensorBoard logs
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
