@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./cocoa_yield_ml_project/src"
+    ]
+}
