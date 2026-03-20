@@ -3,7 +3,7 @@ import streamlit as st
 
 # sys.path.append('../src')
 
-from ..src.predict import predict_yield
+from src.predict import predict_yield
 
 st.title("Cocoa Yield Prediction (Ghana)")
 
