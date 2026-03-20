@@ -32,18 +32,13 @@ data/
 *.h5
 *.hdf5
 
-# Model files (ignore most, but keep cocoa_model.pkl)
+# ignore models generally
 models/
-*.ckpt
-*.pth
-*.pt
-*.pb
-*.onnx
-*.joblib
 *.pkl
 
-# Exception: keep the cocoa model file
+# exception: allow this specific model
 !cocoa_yield_ml_project/models/cocoa_model.pkl
+
 
 # ML experiment tracking
 mlruns/        # MLflow
