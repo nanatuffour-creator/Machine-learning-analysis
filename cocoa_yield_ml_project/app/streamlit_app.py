@@ -1,8 +1,11 @@
 import streamlit as st
 import sys
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 sys.path.append('../src')
 
-from ..src.predict import predict_yield
+from src.predict import predict_yield
 
 st.title("Cocoa Yield Prediction (Ghana)")
 
