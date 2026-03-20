@@ -17,4 +17,7 @@ potassium = st.number_input("Potassium")
 if st.button("Predict"):
     features = [rainfall, temperature, humidity, soil_pH, nitrogen, phosphorus, potassium]
     result = predict_yield(features)
+    with open("predicted_results.txt","w") as f:
+        f.write(f"{rainfall},{temperature},{humidity},{soil_pH},{nitrogen},{phosphorus},{potassium},{result:.2f}\n")
+
     st.success(f"Predicted Yield: {result:.2f} tons/hectare")
